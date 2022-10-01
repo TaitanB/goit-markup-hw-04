@@ -37,6 +37,7 @@ img {
 
 .link {
   text-decoration: none;
+  display: block;
 }
 
 .list {
@@ -439,7 +440,7 @@ img {
   gap: 30px;
 }
 
-.list-clients {
+.link-clients {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -453,13 +454,13 @@ img {
   fill: var(--fill-color);
 }
 
-.list-clients:hover,
-.list-clients:focus {
+.link-clients:hover,
+.link-clients:focus {
   border-color: var(--accent-color);
 }
 
-.list-clients:hover .logo-clients,
-.list-clients:focus .logo-clients {
+.link-clients:hover .logo-clients,
+.link-clients:focus .logo-clients {
   fill: var(--accent-color);
 }
 
@@ -540,6 +541,6 @@ img {
 }
 
 .our-soc-link:hover .our-soc-icon,
-.our-soc-link:hover .our-soc-icon {
+.our-soc-link:focus .our-soc-icon {
   fill: var(--text-color-theme-dark);
 }
