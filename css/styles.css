@@ -100,7 +100,8 @@ img {
 }
 
 .logo:focus,
-.logo-nav:focus {
+.logo-nav:focus,
+.link:focus {
   outline: none;
 }
 
